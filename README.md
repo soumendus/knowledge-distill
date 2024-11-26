@@ -1,5 +1,5 @@
 
-# knowledge-distill
+# Knowledge Distillation
 
 This code implements the knowledge distillation idea presented in the research paper "https://arxiv.org/abs/1503.02531". The code in this GitHub repository, trains a larger network with more parameters which is the teacher model. Then using knowledge distillation technique, a student model with less parameters is trained. The student model reaches reasonably close in accuracy to the teacher model. The implementation downloads and uses the tiny imagenet dataset.
 
