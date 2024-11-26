@@ -11,6 +11,8 @@ python3 tiny_imagenet_distill.py
 ```
 
 ## Results
+
+```
 Training Teacher Model on Tiny ImageNet...
 Teacher Epoch [1/10], Loss: 3.7101
 Teacher Epoch [2/10], Loss: 2.2122
@@ -44,6 +46,7 @@ Total parameters for the teacher model: 11279112
 Trainable parameters for the teacher: 11279112
 Total parameters for the student model: 2480072
 Trainable parameters for the student: 2480072
+```
 
 
 
