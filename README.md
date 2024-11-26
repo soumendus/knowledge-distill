@@ -1,7 +1,7 @@
 
 # knowledge-distill
 
-This code implements the knowledge distillation idea presented in the research paper "https://arxiv.org/abs/1503.02531". The code in this GitHub repository, trains a larger network with more parameters which is the teacher model. Then using knowledge distillation technique, a student model with less parameters is trained. The student model reaches reasonably close in accuracy to the reacher model. The implementation downloads and uses the tiny imagenet dataset.
+This code implements the knowledge distillation idea presented in the research paper "https://arxiv.org/abs/1503.02531". The code in this GitHub repository, trains a larger network with more parameters which is the teacher model. Then using knowledge distillation technique, a student model with less parameters is trained. The student model reaches reasonably close in accuracy to the teacher model. The implementation downloads and uses the tiny imagenet dataset.
 
 
 ## How to run the code
@@ -22,6 +22,7 @@ Teacher Epoch [7/10], Loss: 1.2243
 Teacher Epoch [8/10], Loss: 1.1440
 Teacher Epoch [9/10], Loss: 1.0681
 Teacher Epoch [10/10], Loss: 1.0065
+
 Training Student Model via Knowledge Distillation on Tiny ImageNet...
 Student Epoch [1/10], Loss: 5.5640
 Student Epoch [2/10], Loss: 3.0807
